@@ -18,20 +18,24 @@
   - readFile.js
   - updateFile.js
   - deleteFile.js
+
 - Inside of createFile.js:
 - Require the fs module
 - Implement the fs.writeFile() function, creating a txt file called HelloWorld.txt, with Hello, World! inside
 - Use the async version
 - Run node createFile.js to create the file
+
 - Inside of readFile.js:
   - Require the fs module
   - Implement the fs.readFile()
   - You can either read the contents of the HelloWorld.txt file, or any other file you create in your project
   - Run node readFile.js to read the file to the console
+
 - Inside of updateFile.js
   - Require the fs module
   - Using the appendFile() function, append some text to the end of your HelloWorld.txt
   - Run node update.js
+  
 - Inside of deleteFile.js
   - Require the fs module
   - Implement the fs.unlink()
